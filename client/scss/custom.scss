@@ -1,0 +1,41 @@
+$container-max-widths: (
+  sm: 540px,    // Container width on small screens
+  md: 600px,    // Container width on medium screens
+  lg: 760px,    // Container width on large screens
+  xl: 800,   // Reduced width on extra-large screens
+  xxl: 700px   // Reduced width on extra-extra-large screens
+) !default;
+
+
+@import "./cus_variables.scss";  // Custom variables first
+@import "../../node_modules/bootstrap/scss/functions";  // Import Bootstrap functions (if needed)
+@import "../../node_modules/bootstrap/scss/mixins";  // Import mixins after
+@import "../../node_modules/bootstrap/scss/bootstrap";  // Finally, import Bootstrap's full styles
+
+
+.s{
+ background-color: rgb(174, 58, 236);
+
+}
+.container{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 800px !important;
+  }
+}
+.nav-link{
+  color: white !important;
+  padding-right: 10px !important;
+}
+.nav-bckgrnd{
+  background-color: rgb(39, 30, 89);
+  height: 151px
+}
+
+.nav-link-background{
+  background-color: rgb(102, 153, 204);
+}
