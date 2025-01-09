@@ -1,4 +1,20 @@
 @charset "UTF-8";
+:root {
+  --bs-border-width: 2px !important;
+  --bs-border-style: solid !important;
+  --bs-border-color:rgb(102, 153, 204) !important;
+}
+
+.extended_network {
+  border-width: var(--bs-border-width);
+  border-style: var(--bs-border-style);
+  border-color: rgb(0, 4, 8) !important;
+}
+
+.extended_padding {
+  margin: 20px 20px 20px 20px !important;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -11845,7 +11861,7 @@ textarea.form-control-lg {
   }
 }
 .s {
-  background-color: rgb(174, 58, 236);
+  background-color: rgb(252, 252, 252);
 }
 
 .container {
@@ -11870,4 +11886,80 @@ textarea.form-control-lg {
 
 .nav-link-background {
   background-color: rgb(102, 153, 204);
+}
+
+.search-barc {
+  padding-top: 10px;
+}
+
+.search_bar .search {
+  width: 100px;
+}
+
+.small-intro {
+  padding-top: 0px;
+}
+
+.bio-info {
+  font-size: x-small;
+}
+
+.bio-quote {
+  padding-top: 10px;
+}
+
+.last_login {
+  padding-top: 22px;
+  font-size: x-small;
+}
+
+.myway_url {
+  margin-bottom: 0px !important;
+}
+
+.contact_center, .url_center {
+  margin-bottom: 10px;
+}
+
+.contact_title {
+  background-color: rgb(102, 153, 204);
+  padding-bottom: 4px;
+}
+
+.title_name {
+  font: white;
+  margin: 0px !important;
+}
+
+.messages {
+  margin-top: 4px !important;
+  margin-bottom: 10px !important;
+}
+
+.topic_ {
+  background-color: rgb(177, 208, 240) !important;
+  padding: 10px;
+}
+
+.interest_border {
+  background-color: rgb(102, 153, 204);
+  color: wheat;
+}
+
+.interest_title {
+  color: rgb(254, 254, 254);
+  margin-bottom: 0px;
+}
+
+.interest {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.table_interest {
+  padding: 3px;
+}
+
+.table {
+  margin-bottom: 0px !important;
 }
