@@ -12,7 +12,7 @@
 }
 
 .extended_padding {
-  margin: 20px 20px 20px 20px !important;
+  margin: 20px 20px 20px 5px !important;
 }
 
 /*!
@@ -11926,6 +11926,10 @@ textarea.form-control-lg {
   padding-bottom: 4px;
 }
 
+.contact_titles {
+  font-size: 12px;
+}
+
 .title_name {
   font: white;
   margin: 0px !important;
@@ -11963,3 +11967,166 @@ textarea.form-control-lg {
 .table {
   margin-bottom: 0px !important;
 }
+
+.table_size {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.blurbs {
+  background-color: rgb(255, 204, 153);
+  color: rgb(255, 102, 0);
+  padding-left: 4px;
+}
+
+.about {
+  padding: 10px;
+}
+
+.pictures_space {
+  padding-bottom: 10px;
+  padding-left: 2px;
+}
+
+.friend_name {
+  display: flex;
+  flex-wrap: wrap; /* Allow the text to wrap if it's too long */
+  word-wrap: break-word; /* Force word breaking if necessary */
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+.friend_title {
+  color: rgb(255, 102, 0);
+  margin-bottom: 0px;
+}
+
+.friend_border {
+  background-color: rgb(255, 204, 153);
+  color: rgb(255, 102, 0);
+  padding-left: 4px;
+}
+
+.comment_ {
+  background-color: rgb(255, 153, 51) !important;
+  padding: 10px;
+}
+
+.comment_amnt {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.comment_desc {
+  background-color: rgb(249, 214, 180) !important;
+}
+
+.date {
+  font-size: 12px;
+}
+
+/* ====== */
+
+/* --- AIM Chat Window Styling --- */
+        #aim-window {
+            width: 350px;
+            background-color: #d4d0c8; /* Classic Windows 98 Gray */
+            border: 2px solid;
+            border-color: #ffffff #808080 #808080 #ffffff;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .aim-header {
+            background: linear-gradient(90deg, #000080, #1084d0);
+            color: white;
+            padding: 3px 5px;
+            font-weight: bold;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .aim-header-controls span {
+            background-color: #d4d0c8;
+            color: black;
+            border: 1px solid;
+            border-color: #ffffff #808080 #808080 #ffffff;
+            padding: 0 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 2px;
+        }
+
+        .aim-body {
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        /* --- Chat History Area --- */
+        #chat-history {
+            height: 250px;
+            background-color: white;
+            border: 2px solid;
+            border-color: #808080 #ffffff #ffffff #808080;
+            padding: 5px;
+            overflow-y: auto;
+            font-size: 13px;
+        }
+
+        .message { margin-bottom: 8px; }
+        .bot-name { color: #0000ff; font-weight: bold; font-family: 'Times New Roman', Times, serif; }
+        .user-name { color: #ff0000; font-weight: bold; font-family: 'Times New Roman', Times, serif; }
+        .system-msg { color: #808080; font-style: italic; }
+
+        /* --- Toolbar / Quick Actions --- */
+        .aim-toolbar {
+            display: flex;
+            gap: 5px;
+            justify-content: space-between;
+        }
+
+        .aim-toolbar button {
+            flex: 1;
+            background-color: #d4d0c8;
+            border: 2px solid;
+            border-color: #ffffff #808080 #808080 #ffffff;
+            font-size: 11px;
+            padding: 4px;
+            cursor: pointer;
+        }
+        .aim-toolbar button:active {
+            border-color: #808080 #ffffff #ffffff #808080;
+        }
+
+        /* --- Text Input Area --- */
+        .aim-input-area {
+            display: flex;
+            gap: 5px;
+        }
+
+        #chat-input {
+            flex: 1;
+            height: 40px;
+            resize: none;
+            border: 2px solid;
+            border-color: #808080 #ffffff #ffffff #808080;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            padding: 4px;
+        }
+
+        #send-btn {
+            background-color: #d4d0c8;
+            border: 2px solid;
+            border-color: #ffffff #808080 #808080 #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 0 10px;
+        }
+        #send-btn:active {
+            border-color: #808080 #ffffff #ffffff #808080;
+        }

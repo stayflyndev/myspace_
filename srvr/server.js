@@ -11,7 +11,7 @@ app.use('/styles', express.static(path.join(__dirname, 'node_modules/bootstrap/d
 
 app.get('/', (req, res) => {
     // Serve the index.html file from the 'public' directory
-    res.sendFile(path.join(__dirname, '..', 'client', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'client', 'indexx.html'));
   });
   app.get('/t', (req, res) => {
     // Serve the index.html file from the 'public' directory
